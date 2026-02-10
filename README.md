@@ -4,13 +4,6 @@ An advanced Power BI project demonstrating enterprise-level data modelling, DAX 
 
 ---
 
-## Live Dashboard
-
-<!-- ADD: screenshot of main dashboard page here -->
-<!-- Tip: In Power BI Desktop, File → Export → Export to PDF or screenshot each page -->
-
----
-
 ## Key Findings
 
 - **$8.9M revenue recovery opportunity** identified from 174 unprofitable transactions
@@ -21,23 +14,17 @@ An advanced Power BI project demonstrating enterprise-level data modelling, DAX 
 
 ## Dashboard Pages
 
-<!-- ADD: screenshot of each page with brief caption -->
-
 ### 1. Executive Summary
-<!-- ADD: screenshot -->
-Overview of key KPIs: total revenue, profit margin, units sold, YoY growth
+![Dashboard](images/dashboard.png)
+Overview of key KPIs: total revenue, profit margin, units sold
 
 ### 2. Sales Analysis
-<!-- ADD: screenshot -->
+![Segment Analysis](images/analysis_by_segment.png)
 Breakdown by product, segment, and country with drill-through capability
 
 ### 3. What-If Price Modelling
-<!-- ADD: screenshot -->
+![What If](images/what_if.png)
 Dynamic parameter sliders enabling scenario analysis across products and markets
-
-### 4. Profitability Analysis
-<!-- ADD: screenshot -->
-Identification of unprofitable transactions and pricing recommendations
 
 ---
 
@@ -48,7 +35,7 @@ Identification of unprofitable transactions and pricing recommendations
 - **4 Dimension Tables:** Products, Customers, Geography, Date
 - **Result:** 60% reduction in model size vs flat table
 
-<!-- ADD: screenshot of model view from Power BI Desktop -->
+![Model](images/model_view.png)
 
 ---
 
@@ -73,8 +60,6 @@ Adjusted Revenue =
 -- Unprofitable Transactions
 Unprofitable Count = COUNTROWS(FILTER(Sales, [Transaction Profit] < 0))
 ```
-
-<!-- ADD: list any other notable measures -->
 
 ---
 
