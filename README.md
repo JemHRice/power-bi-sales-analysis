@@ -77,9 +77,10 @@ Unprofitable Count = COUNTROWS(FILTER(Sales, [Transaction Profit] < 0))
 power-bi-sales-analysis/
 ├── sales_analysis.pbix     # Power BI report file
 ├── data/
-│   └── Sample Sale data.xlsx     # Source data  <!-- ADD if including raw data -->
+│   └── Sample Sale data.xlsx     # Source data  
 ├── images/
-│   ├── dashboard.png       <!-- ADD screenshots -->
+│   ├── analysis_by_segment.png
+│   ├── dashboard.png       
 │   ├── model_view.png
 │   └── what_if.png
 └── README.md
